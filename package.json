@@ -1,0 +1,32 @@
+{
+  "name": "https-example",
+  "version": "0.0.1",
+  "description": "simple example how to run a https instance on node using express",
+  "keywords": [
+    "ssl",
+    "tls",
+    "https",
+    "express"
+  ],
+  "author": "Gerard Braad",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/gbraad/https-example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gbraad/https-example.git"
+  },
+  "dependencies": {
+    "express": "~4.11.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
